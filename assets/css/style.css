@@ -15,8 +15,18 @@ header {
 /* main */
 main {
     background-color: #f6f8f9;
+    padding-top: 3rem;
 }
 
+.container {
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    border: 2px solid #f6f8f9;
+    padding: 1rem 3rem;
+}
+
+/* #region add buttons */
 button {
     height: 2rem;
     border-radius: 5px;
@@ -33,7 +43,9 @@ button {
     color: #cacfd4;
     border: solid #cacfd4;
 }
+/* #endregion add buttons */
 
+/* #region list */
 ul {
     list-style: none;
     padding-inline-start: 0;
@@ -42,8 +54,6 @@ ul {
 li {
     padding: 1rem 0rem;
 }
-
-
 
 .check {
     color: green;
@@ -94,3 +104,5 @@ li {
     background-color: burlywood;
 }
 /* #endregion label */
+
+/* #endregion list */
