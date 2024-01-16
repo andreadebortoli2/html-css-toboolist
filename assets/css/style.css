@@ -49,17 +49,37 @@ button {
     padding: 1px 3px;
     margin-right: 1rem;
 }
-
+/* #region label */
 .label {
+    color: white;
     font-size: 0.6rem;
-    border: 1px solid;
+    border: 1px;
     border-radius: 0.5rem;
     padding: 0.4rem;
     margin: 1rem;
 }
 
 #editorial {
-    color: white;
     background-color: lightblue;
-    border-color: lightblue;
 }
+
+#q1_goals {
+    background-color: plum;
+}
+
+#recruiting {
+    background-color: lightgreen;
+}
+
+#mobile {
+    background-color: orange;
+}
+
+#website {
+    background-color: pink;
+}
+
+#sales {
+    background-color: burlywood;
+}
+/* #endregion label */
