@@ -1,11 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+/* #region header */
 header {
     padding: 1rem 1rem;
 }
+.site_name {
+    font-size: 2.5rem;
+    font-weight: 800;
+    vertical-align: top;
+}
+/* #endregion header */
 
+/* main */
 main {
     background-color: #f6f8f9;
 }
@@ -27,8 +34,32 @@ button {
     border: solid #cacfd4;
 }
 
-.site_name {
-    font-size: 2.5rem;
-    font-weight: 800;
-    vertical-align: top;
+.check {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px 3px;
+    margin-right: 1rem;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px 3px;
+    margin-right: 1rem;
+}
+
+.label {
+    font-size: 0.6rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+
+#editorial {
+    color: white;
+    background-color: lightblue;
+    border-color: lightblue;
 }
