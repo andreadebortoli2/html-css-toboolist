@@ -71,7 +71,7 @@ li {
     margin-right: 1rem;
 }
 /* #region label */
-.label {
+label {
     color: white;
     font-size: 0.6rem;
     border: 1px;
@@ -80,27 +80,27 @@ li {
     margin: 1rem;
 }
 
-#editorial {
+.editorial {
     background-color: lightblue;
 }
 
-#q1_goals {
+.q1_goals {
     background-color: plum;
 }
 
-#recruiting {
+.recruiting {
     background-color: lightgreen;
 }
 
-#mobile {
+.mobile {
     background-color: orange;
 }
 
-#website {
+.website {
     background-color: pink;
 }
 
-#sales {
+.sales {
     background-color: burlywood;
 }
 /* #endregion label */
